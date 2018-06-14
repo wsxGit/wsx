@@ -1,7 +1,5 @@
-profile: dev
-
-server:
-  port: 8201
 spring:
   application:
-    name: platform.nursing-app-api
+    name: foo
+  profiles:
+    active: dev
